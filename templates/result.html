@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Résultat</title>
+</head>
+<body>
+    <h1>Fichier traité avec succès !</h1>
+    <p>Votre fichier modifié est prêt :</p>
+    <a href="{{ url_for('download_file', filename=filename) }}">Télécharger le fichier</a><br>
+    <a href="{{ url_for('index') }}">Retour à l’accueil</a>
+</body>
+</html>
