@@ -1,0 +1,1 @@
+# g-n-rateur-inventaire
